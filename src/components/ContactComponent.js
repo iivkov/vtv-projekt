@@ -58,7 +58,6 @@ const ContactComponent = () => {
                 <p>Kninski trg 9</p>
                 <p>HR-10000 Zagreb</p>
                 <br/>
-                <p>Telefon: +385 (0)1 626 6233</p>
                 <p>E-pošta: info@vtv-projekt.hr</p>
                 <br/>
                 <p>OIB: 84961822490</p>

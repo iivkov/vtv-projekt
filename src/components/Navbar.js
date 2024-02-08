@@ -44,9 +44,9 @@ const Navbar = () => {
         <li>
           <NavLink to="/">Početna</NavLink>
         </li>
-        {/* <li>
+        <li>
           <NavLink to="/o-nama">O nama</NavLink>
-        </li> */}
+        </li>
         <li>
           <NavLink to="/usluge">Usluge</NavLink>
         </li>
