@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import {Helmet} from "react-helmet";
 import '../App.css';
 import slika from '../assets/AI.jpg';
 
@@ -12,6 +13,11 @@ const HomeComponent = () => {
 
     return (
     <div className="main_content">
+        <Helmet>
+            <title>Početna – VTV Projekt d.o.o.</title>
+            <meta name="description" content="Pružamo usluge snimanja, obrade i analize video materijala u svrhu razvoja prilagođenih modela, pri čemu koristimo duboko učenje i umjetnu inteligenciju."/>
+            <meta name="keywords" content="snimanje, obrada, analiza, prilagođeni modeli, duboko učenje, umjetna inteligencija, optimiziranje poslovnih procesa"/>
+        </Helmet>
         <h1>Želite donositi prave poslovne odluke? Na pravom ste mjestu!</h1>
         <div className="container">
             <div className={`box left ${animate ? 'enter' : 'left-enter'}`}>

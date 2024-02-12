@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import {Helmet} from "react-helmet";
 import '../App.css';
 import slika from '../assets/proejkt (1).jpg';
 
@@ -12,6 +13,11 @@ const ServicesComponent = () => {
 
     return (
     <div className="main_content">
+        <Helmet>
+            <title>Usluge – VTV Projekt d.o.o.</title>
+            <meta name="description" content="Visokotehnološke usluge za praćenje objekata na cestama, analizu prometnih tokova i detekciju oštećenja; izrada prometnih elaborata, implementacija ITS rješenja"/>
+            <meta name="keywords" content="visokotehnološke usluge, praćenje objekata na cestama, analiza prometnih tokova, detekcija oštećenja, izrada prometnih elaborata, implementacija ITS rješenja"/>
+        </Helmet>
         <h1>Usluge</h1>
         <div className="container">
             <div className={`box left ${animate ? 'enter' : 'left-enter'}`}>
