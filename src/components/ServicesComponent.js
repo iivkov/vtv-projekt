@@ -14,7 +14,7 @@ const ServicesComponent = () => {
     return (
     <div className="main_content">
         <Helmet>
-            <title>Usluge – VTV Projekt d.o.o.</title>
+            <title>Usluge – VTV-Projekt d.o.o.</title>
             <meta name="description" content="Visokotehnološke usluge za praćenje objekata na cestama, analiza prometnih tokova i detekcija oštećenja; izrada prometnih elaborata, implementacija ITS rješenja"/>
             <meta name="keywords" content="visokotehnološke usluge, praćenje objekata na cestama, analiza prometnih tokova, detekcija oštećenja, izrada prometnih elaborata, implementacija ITS rješenja"/>
         </Helmet>

@@ -14,7 +14,7 @@ const HomeComponent = () => {
     return (
     <div className="main_content">
         <Helmet>
-            <title>Početna – VTV Projekt d.o.o.</title>
+            <title>Početna – VTV-Projekt d.o.o.</title>
             <meta name="description" content="Pružamo usluge snimanja, obrade i analize video materijala u svrhu razvoja prilagođenih modela, pri čemu koristimo duboko učenje i umjetnu inteligenciju."/>
             <meta name="keywords" content="snimanje, obrada, analiza, prilagođeni modeli, duboko učenje, umjetna inteligencija, optimiziranje poslovnih procesa"/>
         </Helmet>

@@ -31,7 +31,7 @@ const ContactComponent = () => {
 	return (
     <div className="main_content">
         <Helmet>
-            <title>Kontakt – VTV Projekt d.o.o.</title>
+            <title>Kontakt – VTV-Projekt d.o.o.</title>
             <meta name="description" content="U svom radu prilagođavamo se specifičnim potrebama klijenata i pružamo im temelje za optimalno donošenje poslovnih odluka. Javite nam se s povjerenjem!" />
             <meta name="keywords" content="prilagodljivost specifičnim potrebama klijenarta, optimalno donošenje poslovnih odluka, povjerenje" />
         </Helmet>

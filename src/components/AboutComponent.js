@@ -14,7 +14,7 @@ const AboutComponent = () => {
     return (
     <div className="main_content">
         <Helmet>
-            <title>O nama – VTV Projekt d.o.o.</title>
+            <title>O nama – VTV-Projekt d.o.o.</title>
             <meta name="description" content="Poslovi koje obavljamo obuhvaćaju projektiranje, nadzor izgradnje, vještačenje, legalizaciju bespravnih građevina, etažiranje građevina te geodetske izmjere."/>
             <meta name="keywords" content="graditeljstvo, promet, projektiranje, nadzor izgradnje, vještačenje, legalizacija, etažiranje, geodetske izmjere"/>
         </Helmet>
